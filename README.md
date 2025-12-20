@@ -15,37 +15,37 @@ https://email-spam-classifier-shravan.streamlit.app/
 
 🎯 Project Objectives
 
-Demonstrate text classification using Logistic Regression
+- Demonstrate text classification using Logistic Regression
 
-Build a complete ML pipeline from scratch
+- Build a complete ML pipeline from scratch
 
-Deploy a trained ML model as a live web application
+- Deploy a trained ML model as a live web application
 
-Provide real-time predictions with confidence scores
+- Provide real-time predictions with confidence scores
 
 🧠 Machine Learning Details
 
-Algorithm: Logistic Regression
+- Algorithm: Logistic Regression
 
-Text Vectorization: TF-IDF
+- Text Vectorization: TF-IDF
 
-Hyperparameter Tuning: GridSearchCV
+- Hyperparameter Tuning: GridSearchCV
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-Score
+- Evaluation Metrics: Accuracy, Precision, Recall, F1-Score
 
-Accuracy Achieved: > 90% on test dataset
+- Accuracy Achieved: > 90% on test dataset
 
 ⚙️ Tech Stack
 
-Python 3.8+
+- Python 3.8+
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Scikit-learn
+- Scikit-learn
 
-Streamlit
+- Streamlit
 
 📁 Project Structure
 
@@ -54,32 +54,39 @@ Email-Spam-Classifier/
 │
 ├── artifacts/
 │ ├── model.pkl
+| ├── target_encoder.pkl
 │ └── preprocessor.pkl
+| 
 │
 ├── src/
-│ ├── data_ingestion.py
-│ ├── data_transformation.py
-│ ├── model_trainer.py
-│ ├── utils.py
-│ ├── logger.py
-│ └── exception.py
-│
+|    ├──components/
+│    |     ├── data_ingestion.py
+│    |     ├── data_transformation.py
+│    |     └── model_trainer.py
+│    ├── utils.py
+│    ├── logger.py
+│    └── exception.py
+├──Notebook/
+|     ├──Email Spam Classifier.ipynb
+|     └──mail_data.csv
+├── main.py
 ├── app.py
+├── setup.py
 ├── requirements.txt
 ├── README.md
 └── image/
-└── email spam classifier.gif
+     └── email spam classifier.gif
 ```
 
 🔄 Workflow
 
-User enters email text
+- User enters email text
 
-Text is preprocessed using TF-IDF
+- Text is preprocessed using TF-IDF
 
-Logistic Regression model predicts the class
+- Logistic Regression model predicts the class
 
-Result is displayed as Spam / Not Spam with confidence score
+- Result is displayed as Spam / Not Spam with confidence score
 
 🚀 How to Run Locally
 1️⃣ Install Dependencies
@@ -90,27 +97,27 @@ streamlit run app.py
 
 ✅ Features
 
-Real-time spam detection
+- Real-time spam detection
 
-Confidence score for predictions
+- Confidence score for predictions
 
-Clean UI built with Streamlit
+- Clean UI built with Streamlit
 
-Error handling for empty input
+- Error handling for empty input
 
-Modular and scalable codebase
+- Modular and scalable codebase
 
 📘 Learning Outcomes
 
-NLP preprocessing techniques
+- NLP preprocessing techniques
 
-End-to-end ML pipeline design
+- End-to-end ML pipeline design
 
-Model persistence using pickle
+- Model persistence using pickle
 
-Debugging deployment-level ML issues
+- Debugging deployment-level ML issues
 
-Deploying ML models using Streamlit
+- Deploying ML models using Streamlit
 
 📌 Conclusion
 
