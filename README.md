@@ -1,4 +1,5 @@
 Email Spam Classifier 📧🚫
+
 📌 Project Overview
 
 This project is an Email Spam Classifier built using Machine Learning (Logistic Regression) and deployed as a Streamlit web application.
