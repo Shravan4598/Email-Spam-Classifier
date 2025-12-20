@@ -89,11 +89,24 @@ Email-Spam-Classifier/
 - Result is displayed as Spam / Not Spam with confidence score
 
 🚀 How to Run Locally
+
 1️⃣ Install Dependencies
 pip install -r requirements.txt
 
 2️⃣ Run the Application
 streamlit run app.py
+
+📊 Model Performance (After Hyperparameter Tuning)
+
+The Logistic Regression model was optimized using GridSearchCV and evaluated on both training and test datasets.
+
+| Metric    | Train Data | Test Data |
+| --------- | ---------- | --------- |
+| Accuracy  | 1.0000     | 0.9901    |
+| Precision | 1.0000     | 0.9897    |
+| Recall    | 1.0000     | 0.9990    |
+| F1 Score  | 1.0000     | 0.9943    |
+
 
 ✅ Features
 
