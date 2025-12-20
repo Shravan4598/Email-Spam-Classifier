@@ -14,6 +14,9 @@ https://email-spam-classifier-shravan.streamlit.app/
 🎥 Project Demo
  ![Email Spam Classifier Demo](image/email%20spam%20classifier.gif)
 
+ Ptoject Document
+ ![Email Spam Classifier Documents](https://github.com/Shravan4598/Email-Spam-Classifier/blob/main/image/Email_Spam_Classifier.pdf)
+
 🎯 Project Objectives
 
 - Demonstrate text classification using Logistic Regression
