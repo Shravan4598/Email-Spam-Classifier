@@ -51,22 +51,22 @@ Streamlit
 Email-Spam-Classifier/
 │
 ├── artifacts/
-│   ├── model.pkl
-│   └── preprocessor.pkl
+│ ├── model.pkl
+│ └── preprocessor.pkl
 │
 ├── src/
-│   ├── data_ingestion.py
-│   ├── data_transformation.py
-│   ├── model_trainer.py
-│   ├── utils.py
-│   ├── logger.py
-│   └── exception.py
+│ ├── data_ingestion.py
+│ ├── data_transformation.py
+│ ├── model_trainer.py
+│ ├── utils.py
+│ ├── logger.py
+│ └── exception.py
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
 └── image/
-    └── email spam classifier.gif
+└── email spam classifier.gif
 
 
 🔄 Workflow
