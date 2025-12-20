@@ -48,6 +48,8 @@ Scikit-learn
 Streamlit
 
 📁 Project Structure
+
+```
 Email-Spam-Classifier/
 │
 ├── artifacts/
@@ -67,7 +69,7 @@ Email-Spam-Classifier/
 ├── README.md
 └── image/
 └── email spam classifier.gif
-
+```
 
 🔄 Workflow
 
