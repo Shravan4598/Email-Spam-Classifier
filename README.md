@@ -1,1 +1,132 @@
-# Email-Spam-Classifier
+```markdown
+# Email Spam Classifier 📧🚫
+
+## 📌 Project Overview
+This project is an **Email Spam Classifier** built using **Machine Learning (Logistic Regression)** and deployed as a **Streamlit web application**.
+
+Users can enter email text and instantly get a prediction indicating whether the email is **Spam** or **Not Spam**, along with a **confidence score**.
+
+---
+
+## 🌐 Live Application
+👉 **Streamlit App:**  
+https://email-spam-classifier-shravan.streamlit.app/
+
+---
+
+## 🎥 Project Demo
+![Email Spam Classifier Demo](image/email%20spam%20classifier.gif)
+
+---
+
+## 🎯 Project Objectives
+- Demonstrate text classification using Logistic Regression  
+- Build a complete ML pipeline from scratch  
+- Deploy a trained ML model as a live web application  
+- Provide real-time predictions with confidence scores  
+
+---
+
+## 🧠 Machine Learning Details
+- **Algorithm:** Logistic Regression  
+- **Text Vectorization:** TF-IDF  
+- **Hyperparameter Tuning:** GridSearchCV  
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score  
+- **Accuracy Achieved:** > 90% on test dataset  
+
+---
+
+## ⚙️ Tech Stack
+- Python 3.8+  
+- Pandas, NumPy  
+- Scikit-learn  
+- Streamlit  
+
+---
+
+## 📁 Project Structure
+```
+
+Email-Spam-Classifier/
+│
+├── artifacts/
+│   ├── model.pkl
+│   ├── preprocessor.pkl
+│
+├── src/
+│   ├── data_ingestion.py
+│   ├── data_transformation.py
+│   ├── model_trainer.py
+│   ├── utils.py
+│   ├── logger.py
+│   └── exception.py
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── image/
+└── email spam classifier.gif
+
+````
+
+---
+
+## 🔄 Workflow
+1. User enters email text  
+2. Text is preprocessed using TF-IDF  
+3. Logistic Regression model predicts the class  
+4. Result is displayed as **Spam / Not Spam** with confidence score  
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+````
+
+### 2️⃣ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## ✅ Features
+
+* Real-time spam detection
+* Confidence score for predictions
+* Clean UI with Streamlit
+* Error handling for empty input
+* Modular and scalable codebase
+
+---
+
+## 📘 Learning Outcomes
+
+* NLP preprocessing techniques
+* End-to-end ML pipeline design
+* Model persistence using pickle
+* Debugging deployment-level ML issues
+* Streamlit app deployment
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates a complete **Machine Learning lifecycle**, from raw data ingestion to a fully deployed web application, making it ideal for learning and showcasing practical ML skills.
+
+---
+
+## 👤 Author
+
+**Shravan Kumar Pandey**
+B.Tech (Hons) Data Science
+
+🔗 GitHub: [https://github.com/Shravan4598](https://github.com/Shravan4598)
+
+```
+
+---
